@@ -1,0 +1,46 @@
+flask==2.3.2
+flask-socketio==5.3.4
+python-engineio==4.4.1
+python-socketio==5.8.0
+
+# Core Requirements
+python>=3.8.0
+
+# GUI & Visualization
+tkinter>=8.6
+ttkthemes>=3.2.2
+
+# Networking & Security
+requests>=2.28.1
+dnspython>=2.2.1
+socket>=0.5.8
+pyOpenSSL>=23.0.0
+
+# Text-to-Speech
+pyttsx3>=2.90
+comtypes>=1.1.10  # Windows TTS support
+
+# Data Handling
+beautifulsoup4>=4.11.1  # For potential web scraping
+lxml>=4.9.1  # Faster XML parsing for CVE data
+
+# Reporting
+python-docx>=0.8.11  # Word report generation (optional)
+XlsxWriter>=3.0.3  # Excel report support
+
+# Development Utilities
+black>=22.10.0  # Code formatting
+pylint>=2.15.5  # Static code analysis
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate  # Windows
+
+# Install requirements
+pip install -r requirements.txt
+
+# For development extras:
+pip install black pylint
+
+pip freeze > requirements.txt
