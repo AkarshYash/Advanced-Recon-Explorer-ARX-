@@ -28,7 +28,6 @@ python scanner.py --target http://testphp.vulnweb.com
 ```
 >  Legal Note: Only scan systems you own or have permission to test. For practice, use:
 > - [http://testphp.vulnweb.com](http://testphp.vulnweb.com)
-> - [http://demo.testfire.net](http://demo.testfire.net)
 
 ---
 
@@ -151,5 +150,12 @@ python scanner.py
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </div>
+
+Off screen recording for the demo. 
+
+https://github.com/user-attachments/assets/3d8d98f1-4f6a-4ee4-b714-d80705a45958
+
+
+
 
 
